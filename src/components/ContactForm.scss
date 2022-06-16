@@ -1,0 +1,52 @@
+.contactFormContainer{
+    width: 100%;
+    .formGroup{
+        width: 100%;
+        margin-bottom: 2rem;
+        label{
+            font-size: 1.8rem;
+            color: #d9d9d9;
+        }
+        input, textarea{
+            width: 100%;
+            font-size: 1.5rem;
+            padding: 1.2rem;
+            color: #d9d9d9;
+            background-color: rgb(255, 255, 255, 0.2);
+            outline: none;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        textarea{
+            min-height: 250px;
+            resize: vertical;
+        }
+
+    }
+    .formBTN{
+        padding: 12px 32px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        background: rgb(208, 154, 154);
+        color: #221f1c;
+        border: 1px solid #d9d9d9;
+        font-weight: 600;
+        border-radius: 50px;
+        cursor: pointer;
+        &:hover{
+            background: rgb(255, 255, 255, 0.2);
+            color: #d9d9d9;
+            transition: 0.5s;
+          }
+    }
+}
+
+@media screen and (max-width: 740px){
+    .contactFormContainer{
+        .formGroup{
+            label{
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

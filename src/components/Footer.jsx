@@ -21,8 +21,8 @@ export const Footer = () => {
                 </div>
             </div>
             <div className='right'>
-                <h4>Hecho con amor por Samuel.</h4>
-                <p>Soy Samuel, un apasionado de la tecnología.</p>
+                <h4>Full Stack Web Developer.</h4>
+                <p>Mi nombre es Samuel Tribulo. Encontrame en mis redes:</p>
                 <div className='social'>
                     <a href="https://www.instagram.com/samutribulo/">    
                         <FaInstagram  size={30} className='iconColors' style={{marginRight: '1rem'}} />

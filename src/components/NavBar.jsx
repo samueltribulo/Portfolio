@@ -19,9 +19,6 @@ export const NavBar = () => {
     window.addEventListener("scroll", changeColor)
   return (
     <div className={color ? 'header header-bg' : 'header'}>
-        <Link to={'/'}>
-            <h1>Portfolio</h1>
-        </Link>
         <ul className={click ? 'navMenu active' : 'navMenu'}>
             <li>
                 <Link  to={'/'}>Home</Link>

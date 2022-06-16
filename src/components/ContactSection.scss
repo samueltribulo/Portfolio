@@ -1,0 +1,36 @@
+.contactSectionContainer{   
+    width: 80%;
+    min-width: 350px;
+    margin: auto;
+    display: flex;
+    gap: 5rem;
+    margin-top:7rem;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 2px rgba($color: #d9d9d9, $alpha: 1.0);
+    padding: 5rem;
+    .leftSection{
+        width: 100%;
+        max-width: 500px;
+
+    }
+    .rigthSection{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1060px){
+    .contactSectionContainer{
+        flex-direction: column-reverse;
+        .leftSection, .rigthSection{
+            max-width: 100%;
+        }
+        .rigthSection{
+            padding: 4rem 2rem 2rem 2rem;
+            max-width: 100%;
+        }
+    }
+}

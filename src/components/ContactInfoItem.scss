@@ -1,0 +1,29 @@
+.contactInfoContainer{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    .icon{
+        color: #d9d9d9;
+        background-color: #221f1c ;
+        padding: 0.5em;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%; 
+    }
+    .infoC{
+        color:#d9d9d9;
+        font-size: larger;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .infoC{
+        font-size: small;
+        word-break:break-all;
+    }
+}

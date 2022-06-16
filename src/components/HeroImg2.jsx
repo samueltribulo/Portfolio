@@ -1,15 +1,15 @@
 import React from 'react'
 import './HeroImg2.scss'
 
-export const HeroImg2 = () => {
+export const HeroImg2 = ({title, text}) => {
   return (
     <div className='hero-img'>
         <div className='heading'>
             <h1>
-                Proyectos.
+                {title}
             </h1>
             <p>
-                Estos son algunos de mis proyectos:
+                {text}
             </p>
         </div>
     </div>
