@@ -21,16 +21,16 @@ export const NavBar = () => {
     <div className={color ? 'header header-bg' : 'header'}>
         <ul className={click ? 'navMenu active' : 'navMenu'}>
             <li>
-                <Link  to={'/'}>Home</Link>
+                <Link onClick={() => setClick(false)}  to={'/'}>Home</Link>
             </li>
             <li>
-                <Link  to={'/project'}>Proyectos</Link>
+                <Link onClick={() => setClick(false)}  to={'/project'}>Proyectos</Link>
             </li>
             <li>
-                <Link  to={'/about'}>Sobre mi</Link>
+                <Link onClick={() => setClick(false)}  to={'/about'}>Sobre mi</Link>
             </li>
             <li>
-                <Link  to={'/contact'}>Contacto</Link>
+                <Link onClick={() => setClick(false)}  to={'/contact'}>Contacto</Link>
             </li>
         </ul>
         <div className='hamburguer' onClick={handleClick}>
