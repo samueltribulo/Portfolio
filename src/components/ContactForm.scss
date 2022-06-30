@@ -1,5 +1,9 @@
 .contactFormContainer{
     width: 100%;
+    form{
+        display: flex;
+        flex-direction: column;
+    }
     .formGroup{
         width: 100%;
         margin-bottom: 2rem;
@@ -24,6 +28,7 @@
 
     }
     .formBTN{
+        align-self: center;
         padding: 12px 32px;
         font-size: 1rem;
         text-transform: uppercase;
@@ -46,6 +51,9 @@
         .formGroup{
             label{
                 font-size: 1.4rem;
+            }
+            textarea{
+                min-height: 180px;
             }
         }
     }
